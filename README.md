@@ -13,7 +13,7 @@ distance = sum(sample_1 != sample_2)
 
 However, in large-scale operations, such as 1,000,000 times, its runtime is difficult to be accepted by users.
 Hence, this work is specifically designed for large-scale Hamming distance calculation.
-The results shown that the runtime comparison is **our proposed** << **numpy.sum** (above one-tenth).
+The results shown that the runtime comparison is **our proposed** << **numpy.sum** (at least one-tenth).
 Detailed design is shown in [here](https://github.com/HaolingZHANG/FasterHammingCalculator/blob/main/README.ipynb).
 
 
